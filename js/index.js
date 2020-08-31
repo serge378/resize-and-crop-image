@@ -4,12 +4,13 @@ $(function () {
     viewport: {
       width: 300,
       height: 300,
-      type: "circle",
+      type: "square",
     },
     boundary: {
-      width: 600,
-      height: 300,
+      width: 400,
+      height: 500,
     },
+    showZoomer: false,
   });
 
   $("#upload-image").on("change", function () {
